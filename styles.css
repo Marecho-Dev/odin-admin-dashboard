@@ -1,11 +1,17 @@
-body{
-    width:100vw;
+html{
     height:100vh;
+    width:100vw;
+}
+body{
+    width:100%;
+    height:100%;
+    padding:0;
+    margin:0;
 }
 .container{
     width:100%;
     height:100%;
-    background-color:red;
+    background-color:#e2e8f0;
     display:grid;
     grid-template-columns: 1fr 4fr;
     grid-template-rows:1fr 5fr;
@@ -18,17 +24,6 @@ body{
     font-family:'Roboto'
 }
 
-.header{
-    grid-column:2/3;
-    /* grid-row:1/2; */
-    background-color:yellow;
-}
-
-.cards{
-    grid-column:2/3;
-    grid-row:2/3;
-    background-color:brown;
-}
 .nav{
     font-size:3em;
     display:grid;
@@ -65,4 +60,16 @@ img{
     padding-left:20px;
     padding-top:20px;
     gap:20px;
+}
+
+.header{
+    grid-column:2/3;
+    /* grid-row:1/2; */
+    background-color:white;
+}
+
+.cards{
+    grid-column:2/3;
+    grid-row:2/3;
+    background-color:#e2e8f0;
 }
