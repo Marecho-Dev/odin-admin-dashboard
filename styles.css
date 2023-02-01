@@ -66,8 +66,15 @@ img{
     grid-column:2/3;
     /* grid-row:1/2; */
     background-color:white;
+    display:grid;
+    grid-template-rows: repeat(2,1fr);
 }
-
+.search{
+    background-color: red;
+}
+.status-buttons{
+    background-color: green;
+}
 .cards{
     grid-column:2/3;
     grid-row:2/3;
