@@ -71,7 +71,17 @@ img{
 }
 .search{
     background-color: red;
+    display:grid;
+    grid-template-columns: 1fr 10fr 5fr;
+
 }
+.search-btn{
+    background-color: yellow;
+}
+.search-field{
+    background-color: lightyellow;
+}
+
 .status-buttons{
     background-color: green;
 }
