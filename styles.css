@@ -87,18 +87,47 @@ img{
     align-self: center;
     justify-self:start;
     width:100%;
+    grid-column: 2/3;
 }
-#lookup{
+#search-bar{
+    font-family:"roboto";
+    font-weight:bold;
     background-color:#e2e8f0;
     border-style: none;
-    width:100%;
+    width:90%;
     height:3em;
     border-radius: 30px;
     padding-left:2%;
     font-size:1em;
     
 }
-
+.user-info{
+    align-self: center;
+    justify-self: end;
+    width:80%;
+    display:grid;
+    grid-template-columns: 1fr 2fr 5fr;
+}
+.user-info img{
+    height:2.5em;
+    width: 2.5em;
+    align-self: center;
+    justify-self:center;
+}
+.avi{
+    height:5em;
+    width:5em;
+    border-radius: 100px;
+    background-color:orange;
+    align-self: center;
+    justify-self:center;
+}
+.user-name{
+    font-family:"Roboto";
+    font-weight:bold;
+    font-size:3.5em;
+    align-self:center;
+}
 .status-buttons{
     background-color: green;
 }
