@@ -70,16 +70,33 @@ img{
     grid-template-rows: repeat(2,1fr);
 }
 .search{
-    background-color: red;
     display:grid;
     grid-template-columns: 1fr 10fr 5fr;
 
 }
 .search-btn{
-    background-color: yellow;
+    align-self: center;
+    justify-self:end;
+}
+.search-btn img{
+    height:2.5em;
+    width:2.5em;
 }
 .search-field{
-    background-color: lightyellow;
+    padding-left:20px;
+    align-self: center;
+    justify-self:start;
+    width:100%;
+}
+#lookup{
+    background-color:#e2e8f0;
+    border-style: none;
+    width:100%;
+    height:3em;
+    border-radius: 30px;
+    padding-left:2%;
+    font-size:1em;
+    
 }
 
 .status-buttons{
