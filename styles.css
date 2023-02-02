@@ -188,8 +188,45 @@ button{
     background-color: #1992d4;
 }
 
-.cards{
+.main-content{
     grid-column:2/3;
     grid-row:2/3;
     background-color:#e2e8f0;
+    display:grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.new{
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    grid-template-rows:1fr 4fr 1fr 4fr;
+}
+
+.Announcements{
+    grid-column: 2/3;
+    align-self:start;
+    height:90%;
+    width:75%;
+    background-color:white;
+    border-radius:15px;
+    /* grid-row:2/3; */
+}
+
+.Trending{
+    grid-column: 2/3;
+    align-self:start;
+    height:90%;
+    width:75%;
+    background-color:white;
+    border-radius:15px;
+    /* grid-row:4/5; */
+}
+
+p{
+    grid-column: 2/3;
+    font-family:"Roboto";
+    font-size:2em;
+    font-weight:bold;
+    align-self: start;
+    width:80%;
 }
