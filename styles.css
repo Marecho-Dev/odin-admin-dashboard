@@ -193,7 +193,23 @@ button{
     grid-row:2/3;
     background-color:#e2e8f0;
     display:grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 2fr 1fr;
+}
+
+.project-cards{
+    padding:15px;
+    grid-column: 1/2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(auto-fit, minmax(1fr,250px));
+    gap: 15px;
+}
+
+.project{
+    height:100%;
+    background-color:red;
+    display:grid;
+    grid-template-rows: 1fr 3fr 1fr;
 }
 
 .new{
@@ -209,7 +225,6 @@ button{
     width:75%;
     background-color:white;
     border-radius:15px;
-    /* grid-row:2/3; */
 }
 
 .Trending{
@@ -219,11 +234,18 @@ button{
     width:75%;
     background-color:white;
     border-radius:15px;
-    /* grid-row:4/5; */
-}
+}  
 
 p{
     grid-column: 2/3;
+    font-family:"Roboto";
+    font-size:2em;
+    font-weight:bold;
+    align-self: start;
+    width:80%;
+}
+
+.project-text{
     font-family:"Roboto";
     font-size:2em;
     font-weight:bold;
